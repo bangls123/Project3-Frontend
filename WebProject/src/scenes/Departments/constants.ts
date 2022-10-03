@@ -1,0 +1,27 @@
+enum ActionTypes {
+    EXPORT_START = '[departments] export start',
+    EXPORT_SUCCESS = '[departments] exoport success',
+    EXPORT_ERROR = '[departments] export error',
+    GETLIST_START = '[departments] get list start',
+    GETLIST_SUCCESS = '[departments] get list success',
+    GETLIST_ERROR = '[departments] get list error',
+    TOGGLE_UPLOAD_MODAL = '[departments] toggle upload',
+    UPLOAD_START = '[departments] upload start',
+    UPLOAD_SUCCESS = '[departments] upload success',
+    UPLOAD_ERROR = '[departments] upload error',
+    DELETE_START = '[departments] delete start',
+    DELETE_SUCCESS = '[departments] delete success',
+    DELETE_ERROR = '[departments] delete error',
+    GET_DEPARTMENT_DETAIL_START = '[departments] get department detail start',
+    GET_DEPARTMENT_DETAIL_SUCCESS = '[departments] get department detail success',
+    GET_DEPARTMENT_DETAIL_ERROR = '[departments] get department detail error',
+    CREATE_NEW_DEPARTMENT_START = '[departments] create new department start',
+    CREATE_NEW_DEPARTMENT_SUCCESS = '[departments] create new department success',
+    CREATE_NEW_DEPARTMENT_ERROR = '[departments] create new department error',
+    UPDATE_DEPARTMENT_START = '[departments] update department start',
+    UPDATE_DEPARTMENT_SUCCESS = '[departments] update department success',
+    UPDATE_DEPARTMENT_ERROR = '[departments] update department error',
+    RESET_UPDATE_COMPLETED_STATUS = '[departments] reset update completed status',
+}
+
+export default ActionTypes;
